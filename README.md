@@ -42,7 +42,8 @@ MIT License
 ### Link to YouTube for screen video of website functions ##
 https://youtu.be/NGfnDsFa5JM
 
-## Deployed Application ##
+## Link To Deployed Application ##
+https://take-note-23.herokuapp.com/
 
 ## Questions ##
 If any users have any questions regarding this project, then my GitHub username is KyleKryst. A link to my GitHub is provided [here](https://github.com/KyleKryst). One can also reach me by [email](mailto:kryst.kyle@gmail.com).
