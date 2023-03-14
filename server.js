@@ -1,18 +1,20 @@
 const express = require('express');
-const fs = require('fs');
 const path = require('path');
-const PORT = process.env.PORT || 3001;
+const fs = require('fs');
+
+const PORT = 3001;
 
 const app = express();
 
-const notes = require('./db/db.json');
+const storedNotes = require('./db/db.json');
 
-app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static("public"));
+app.use(express.urlencoded({ extended: true }));
+
+app.use(express.static('public'));
 
 app.get('/api/notes', (req, res) => {
-    res.json(notes.slice(1));
+    res.json(storedNotes.slice(1));
 });
 
 app.get('/', (req, res) => {
@@ -31,7 +33,7 @@ function createNewNote(body, notesArray) {
     const newNote = body;
     if (!Array.isArray(notesArray))
         notesArray = [];
-
+    
     if (notesArray.length === 0)
         notesArray.push(0);
 
@@ -46,8 +48,8 @@ function createNewNote(body, notesArray) {
     return newNote;
 }
 
-app.post('./api/notes', (req, res) => {
-    const newNote = createNewNote(req.body, notes);
+app.post('/api/notes', (req, res) => {
+    const newNote = createNewNote(req.body, storedNotes);
     res.json(newNote);
 });
 
@@ -68,10 +70,10 @@ function deleteNote(id, notesArray) {
 }
 
 app.delete('/api/notes/:id', (req, res) => {
-    deleteNote(req.params.id, notes);
+    deleteNote(req.params.id, storedNotes);
     res.json(true);
 });
 
 app.listen(PORT, () => {
-    console.log(`App listening on PORT ${PORT}`);
+    console.log(`App listening on PORT ${PORT}!`);
 });
