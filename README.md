@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## Description ##
-My motivation to make this project was to be able to write and save notes. I built this project that I can organize my thoughts and keep track of tasks I need to complete. Now with this project completed, it will allow me to have a site to write and store notes on so that I can easily check to see which tasks are currently completed and which need to still be worked on. It also allows me to check back on thoughts I have had in the past.. I learned throughout this project how to run an express.js back end and how to upload applications to Heroku.
+My motivation to make this project was to be able to write and save notes. I built this project so that I can organize my thoughts and keep track of tasks I need to complete. Now with this project completed, it will allow me to have a site to write and store notes on so that I can easily check to see which tasks are currently completed and which need to still be worked on. It also allows me to check back on thoughts I have had in the past. I learned throughout this project how to run an express.js back end and how to upload applications to Heroku.
 
 ## Table of Contents ##
 
