@@ -1,16 +1,9 @@
 {
-  "name": "take-note",
+  "name": "19-ins-data-persistence",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "jest",
-    "start": "node server.js"
-  },
-  "author": "",
+  "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2"
-  },
-  "keywords": []
+    "express": "^4.17.1"
+  }
 }
