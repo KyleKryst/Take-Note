@@ -8,23 +8,23 @@ My motivation to make this project was to be able to write and save notes. I bui
 
 [Installation][installation]
 
-[installation]: https://github.com/KyleKryst/Take-Note/blob/main/README.md#installation
+[installation]: https://github.com/KyleKryst/take-note-23/blob/main/README.md#installation
 
 [License][license]
 
-[license]: https://github.com/KyleKryst/Take-Note/blob/main/README.md#license
+[license]: https://github.com/KyleKryst/take-note-23/blob/main/README.md#license
 
 [Screenshots][screenshots]
 
-[screenshots]: https://github.com/KyleKryst/Take-Note/blob/main/README.md#screenshots
+[screenshots]: https://github.com/KyleKryst/take-note-23/blob/main/README.md#screenshots
 
 [Deployed Application][deployed-application]
 
-[deployed-application]: https://github.com/KyleKryst/Take-Note/blob/main/README.md#deployed-application
+[deployed-application]: https://github.com/KyleKryst/take-note-23/blob/main/README.md#deployed-application
 
 [Questions][questions]
 
-[questions]: https://github.com/KyleKryst/Take-Note/blob/main/README.md#questions
+[questions]: https://github.com/KyleKryst/take-note-23/blob/main/README.md#questions
 
 ## Installation ##
 The steps required to install this project are as listed: 1) Start by installing express which can be done by inputting 'npm init -y' and 'npm i express'. 2) Install the Heroku Command Line Interface. 3) Finally, enter 'heroku create "app-name" in the integrated terminal to upload your application to Heroku.
