@@ -5,12 +5,8 @@ body {
   padding: 0;
 }
 
-.navbar {
-  background-color: rgb(21, 183, 61) !important;
-}
-
 .btn-primary {
-  background-color: rgb(21, 183, 61);
+  background-color: rgb(17, 118, 96);
 }
 
 .navbar-brand {
