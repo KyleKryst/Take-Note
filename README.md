@@ -42,7 +42,7 @@ MIT License
 ### Link to YouTube for screen video of website functions ##
 https://youtu.be/NGfnDsFa5JM
 
-## Link To Deployed Application ##
+## Deployed Application ##
 https://take-note-23.herokuapp.com/
 
 ## Questions ##
